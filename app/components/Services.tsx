@@ -7,7 +7,7 @@ const ServiceCard = ({
   description, 
   className 
 }: { 
-  icon: any, 
+  icon: React.ComponentType<{ className?: string }>, 
   title: string, 
   description: string,
   className?: string 

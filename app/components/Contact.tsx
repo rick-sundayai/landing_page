@@ -1,5 +1,5 @@
 import React from 'react';
-import { Mail, MessageSquare, Phone, ArrowRight } from 'lucide-react';
+import { Mail, Phone, ArrowRight } from 'lucide-react';
 
 export const Contact = () => {
   return (
@@ -10,7 +10,7 @@ export const Contact = () => {
             <div className="inline-flex items-center px-3 py-1 rounded-full bg-blue-50 text-blue-700 text-xs font-bold uppercase tracking-wide mb-6">
               Get in touch
             </div>
-            <h2 className="text-4xl font-bold text-slate-900 mb-6">Let's build your future.</h2>
+            <h2 className="text-4xl font-bold text-slate-900 mb-6">Let&apos;s build your future.</h2>
             <p className="text-slate-500 mb-10 text-lg leading-relaxed">
               Ready to stop wasting time on manual tasks? Book a free 15-minute architectural review with our senior engineers.
             </p>

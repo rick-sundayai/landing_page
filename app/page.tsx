@@ -44,7 +44,7 @@ export default function Home() {
           </h1>
 
           <p className="text-xl text-[#A1A1AA] max-w-4xl mx-auto mb-12 leading-relaxed">
-            We map your manual processes to identify exactly what can be automated with code and what requires AI reasoning. You don't need AI for everything—we tell you exactly where it fits.
+            We map your manual processes to identify exactly what can be automated with code and what requires AI reasoning. You don&apos;t need AI for everything—we tell you exactly where it fits.
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-20">
@@ -117,7 +117,7 @@ export default function Home() {
 
           <div className="text-center mt-12">
             <p className="text-[#A1A1AA] italic">
-              "The right tool for the right job. Not everything needs AI—but when it does, we implement it properly."
+              &quot;The right tool for the right job. Not everything needs AI—but when it does, we implement it properly.&quot;
             </p>
           </div>
         </div>
@@ -271,7 +271,7 @@ export default function Home() {
           {/* Testimonial Carousel */}
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             <div className="bg-black/20 backdrop-blur-sm border border-white/10 rounded-xl p-6">
-              <p className="text-[#EDEDED] mb-4">"Nexus saved us 25 hours per week on data entry. Our team can finally focus on growth instead of spreadsheets."</p>
+              <p className="text-[#EDEDED] mb-4">&quot;Nexus saved us 25 hours per week on data entry. Our team can finally focus on growth instead of spreadsheets.&quot;</p>
               <div className="flex items-center gap-3">
                 <div className="w-10 h-10 bg-gradient-to-r from-[#3B82F6] to-[#8B5CF6] rounded-full"></div>
                 <div>
@@ -281,7 +281,7 @@ export default function Home() {
               </div>
             </div>
             <div className="bg-black/20 backdrop-blur-sm border border-white/10 rounded-xl p-6">
-              <p className="text-[#EDEDED] mb-4">"ROI was immediate. We recovered the investment cost in the first month through time savings alone."</p>
+              <p className="text-[#EDEDED] mb-4">&quot;ROI was immediate. We recovered the investment cost in the first month through time savings alone.&quot;</p>
               <div className="flex items-center gap-3">
                 <div className="w-10 h-10 bg-gradient-to-r from-[#8B5CF6] to-[#3B82F6] rounded-full"></div>
                 <div>
@@ -291,7 +291,7 @@ export default function Home() {
               </div>
             </div>
             <div className="bg-black/20 backdrop-blur-sm border border-white/10 rounded-xl p-6">
-              <p className="text-[#EDEDED] mb-4">"Customer satisfaction increased 40% with their AI support system. Game-changing implementation."</p>
+              <p className="text-[#EDEDED] mb-4">&quot;Customer satisfaction increased 40% with their AI support system. Game-changing implementation.&quot;</p>
               <div className="flex items-center gap-3">
                 <div className="w-10 h-10 bg-gradient-to-r from-[#3B82F6] to-[#8B5CF6] rounded-full"></div>
                 <div>

@@ -1,7 +1,7 @@
 import React from 'react';
-import { Search, PenTool, Rocket, Repeat, Map } from 'lucide-react';
+import { PenTool, Rocket, Repeat, Map } from 'lucide-react';
 
-const Step = ({ number, title, description, icon: Icon }: { number: string, title: string, description: string, icon: any }) => (
+const Step = ({ number, title, description, icon: Icon }: { number: string, title: string, description: string, icon: React.ComponentType<{ className?: string }> }) => (
   <div className="relative flex flex-col items-start p-6 group">
     <div className="mb-6 relative">
       <div className="w-14 h-14 rounded-2xl bg-white border border-slate-200 shadow-sm flex items-center justify-center relative z-10 group-hover:scale-110 group-hover:border-blue-200 transition-all duration-300">
@@ -25,7 +25,7 @@ export const Methodology = () => {
         <div className="text-center mb-16 max-w-3xl mx-auto">
           <h2 className="text-3xl font-bold text-slate-900 mb-4">The Implementation Framework</h2>
           <p className="text-slate-500">
-            We don't guess. We follow a rigorous, data-driven process to ensure your automation delivers tangible ROI from Day 1.
+            We don&apos;t guess. We follow a rigorous, data-driven process to ensure your automation delivers tangible ROI from Day 1.
           </p>
         </div>
 

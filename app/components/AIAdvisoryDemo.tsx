@@ -43,7 +43,7 @@ export const AIAdvisoryDemo = () => {
       };
       
       setResult(mockResult);
-    } catch (err) {
+    } catch {
       setError("We couldn't generate a strategy right now. Please try again or contact us directly.");
     } finally {
       setIsLoading(false);
@@ -142,7 +142,7 @@ export const AIAdvisoryDemo = () => {
                    <div className="mt-8 grid grid-cols-2 gap-4">
                       {['Auto-resolve support tickets', 'Generate social media content', 'Map out sales onboarding'].map((suggestion, i) => (
                         <button key={i} onClick={() => setInput(suggestion)} className="text-left p-4 bg-white border border-slate-100 rounded-lg text-sm text-slate-500 hover:border-blue-200 hover:text-blue-600 hover:shadow-md hover:-translate-y-0.5 transition-all duration-300">
-                          "{suggestion}..."
+                          &quot;{suggestion}...&quot;
                         </button>
                       ))}
                    </div>

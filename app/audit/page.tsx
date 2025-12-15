@@ -1,5 +1,6 @@
 'use client'
 import { useState } from 'react'
+import Link from 'next/link'
 
 export default function AuditPage() {
   const [currentStep, setCurrentStep] = useState(1)
@@ -15,7 +16,7 @@ export default function AuditPage() {
     painPointDescription: ''
   })
 
-  const handleInputChange = (field: string, value: any) => {
+  const handleInputChange = (field: string, value: string | string[] | boolean | null) => {
     setFormData(prev => ({
       ...prev,
       [field]: value
@@ -42,10 +43,10 @@ export default function AuditPage() {
       <nav className="fixed top-0 left-0 right-0 z-50 bg-[#0A0A0A]/80 backdrop-blur-md border-b border-white/5">
         <div className="max-w-7xl mx-auto px-6">
           <div className="flex items-center justify-between h-16">
-            <a href="/" className="text-2xl font-bold bg-gradient-to-r from-[#3B82F6] to-[#8B5CF6] bg-clip-text text-transparent">
+            <Link href="/" className="text-2xl font-bold bg-gradient-to-r from-[#3B82F6] to-[#8B5CF6] bg-clip-text text-transparent">
               NEXUS
-            </a>
-            <a href="/" className="text-[#A1A1AA] hover:text-[#EDEDED] transition-colors">← Back to Home</a>
+            </Link>
+            <Link href="/" className="text-[#A1A1AA] hover:text-[#EDEDED] transition-colors">← Back to Home</Link>
           </div>
         </div>
       </nav>
@@ -150,7 +151,7 @@ export default function AuditPage() {
       <section className="py-16">
         <div className="max-w-4xl mx-auto px-6">
           <div className="text-center mb-12">
-            <h2 className="text-3xl font-bold text-[#EDEDED] mb-4">What You'll Receive</h2>
+            <h2 className="text-3xl font-bold text-[#EDEDED] mb-4">What You&apos;ll Receive</h2>
             <p className="text-[#A1A1AA] text-lg">
               A comprehensive strategic roadmap, not just a sales pitch.
             </p>
@@ -339,7 +340,7 @@ export default function AuditPage() {
                 <h3 className="text-xl font-bold text-[#EDEDED] mb-6">Pain Point Identification</h3>
                 
                 <div>
-                  <label className="block text-[#EDEDED] text-sm font-medium mb-4">What's your biggest operational bottleneck?</label>
+                  <label className="block text-[#EDEDED] text-sm font-medium mb-4">What&apos;s your biggest operational bottleneck?</label>
                   <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
                     {[
                       { value: 'data-entry', label: 'Data Entry & Processing', icon: '📊' },
